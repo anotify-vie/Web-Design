@@ -1,0 +1,44 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: lightblue;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.card {
+    font-family: "Arial", sans-serif;
+    font-size: 30px;
+    color: orange;
+}
+.product {
+    color: purple;
+}
+
+.dashboard .card{
+    font-family: "Arial", sans-serif;
+    font-size: 30px;
+    color: orange;
+    width: 150px;
+    height: 75px;
+    padding: 20px;
+    background-color: lightgrey;
+    border: 2px solid black;
+
+}
+
+.dashboard .card:hover {
+    color: green;
+}
+
+.container.card {
+    font-style: italic;
+}
+
+nav a:hover {
+    color: pink
+}
+
